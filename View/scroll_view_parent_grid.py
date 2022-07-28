@@ -1,5 +1,6 @@
 from kivy.lang import Builder
 from kivy.uix.gridlayout import GridLayout
+from kivy.uix.label import Label
 
 from View.content_scroll_view import ContentScrollView
 

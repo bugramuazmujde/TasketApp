@@ -16,4 +16,4 @@ class ButtonCollection(BoxLayout):
         self.add_widget(TasketButton("minus"))
 
     def add_text_input_to_status_to_do(self, value):
-        self.parent.parent.children[0].children[0].create_task()
+        self.parent.parent.children[0].children[0].input_a_task()

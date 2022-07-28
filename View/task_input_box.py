@@ -11,4 +11,7 @@ class TaskInputBox(TextInput):
         self.bind(on_text_validate=self.on_enter)
 
     def on_enter(self, value):
-        print("yeraba")
+        if self.text:
+            self.parent.parent.parent.parent.create_task(self.text)
+        else:
+            print("hata")

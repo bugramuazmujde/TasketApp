@@ -3,7 +3,6 @@ from kivy.app import App
 from kivy.core.window import Window
 from kivy.lang import Builder
 from kivy.uix.anchorlayout import AnchorLayout
-
 from View.tasket_inner_box import TasketInnerBox
 
 Builder.load_file('kv/tasket.kv')

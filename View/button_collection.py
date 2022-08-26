@@ -1,6 +1,6 @@
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
-from View.tasket_button import TasketButton
+from tasket_button import TasketButton
 
 Builder.load_file('kv/button_collection.kv')
 

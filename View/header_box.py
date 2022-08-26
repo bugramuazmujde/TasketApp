@@ -1,7 +1,7 @@
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
-from View.button_collection import ButtonCollection
+from button_collection import ButtonCollection
 
 Builder.load_file('kv/header_box.kv')
 

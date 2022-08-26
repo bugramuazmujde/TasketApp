@@ -1,8 +1,8 @@
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 
-from View.content_box import ContentBox
-from View.header_box import HeaderBox
+from content_box import ContentBox
+from header_box import HeaderBox
 
 Builder.load_file('kv/tasket_inner_box.kv')
 

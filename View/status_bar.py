@@ -1,7 +1,7 @@
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 
-from View.tasket_label import TasketLabel
+from tasket_label import TasketLabel
 
 Builder.load_file('kv/status_bar.kv')
 

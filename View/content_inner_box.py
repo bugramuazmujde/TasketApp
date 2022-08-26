@@ -1,8 +1,8 @@
 from kivy.lang import Builder
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
-from View.scroll_view_parent_grid import ScrollViewParentGrid
-from View.task_input_box import TaskInputBox
+from scroll_view_parent_grid import ScrollViewParentGrid
+from task_input_box import TaskInputBox
 
 Builder.load_file('kv/content_inner_box.kv')
 

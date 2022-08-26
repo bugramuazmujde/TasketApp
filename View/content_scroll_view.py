@@ -1,6 +1,6 @@
 from kivy.uix.label import Label
 from kivy.uix.scrollview import ScrollView
-from View.task_bucket import TaskBucket
+from task_bucket import TaskBucket
 
 
 class ContentScrollView(ScrollView):
